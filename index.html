@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>⚓ Shakespeare Pirate AI</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 800px;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(10px);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 28px;
+      letter-spacing: 1px;
+    }
+
+    .input-group {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    input {
+      flex: 1;
+      padding: 12px;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 12px 20px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      background: #ff9800;
+      color: black;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+
+    button:hover {
+      background: #ffc107;
+      transform: scale(1.05);
+    }
+
+    .output {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      max-height: 350px;
+      overflow-y: auto;
+      white-space: pre-wrap;
+      line-height: 1.6;
+      font-size: 15px;
+    }
+
+    .loading {
+      text-align: center;
+      font-style: italic;
+      margin-top: 10px;
+      color: #ffcc00;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>⚓ AI Concept Explainer</h1>
+
+    <div class="input-group">
+      <input id="topic" type="text" placeholder="Enter any concept... e.g. DBMS, AI, Blockchain" />
+      <button onclick="explain()">Explain</button>
+    </div>
+
+    <div id="loading" class="loading"></div>
+    <div id="output" class="output"></div>
+  </div>
+
+  <script>
+    async function explain() {
+      const topic = document.getElementById("topic").value;
+      const output = document.getElementById("output");
+      const loading = document.getElementById("loading");
+
+      if (!topic) {
+        alert("Enter a topic first!");
+        return;
+      }
+
+      output.innerText = "";
+      loading.innerText = "Summoning pirate scholar... ⚓";
+
+      try {
+        const res = await fetch("http://localhost:5000/explain", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({ topic })
+        });
+
+        const data = await res.json();
+
+        loading.innerText = "";
+        output.innerText = data.response;
+
+      } catch (error) {
+        loading.innerText = "";
+        output.innerText = "Error connecting to server.";
+      }
+    }
+  </script>
+
+</body>
+</html>
