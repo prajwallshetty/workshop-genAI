@@ -1,1 +1,1 @@
-"# workshop-genAI" 
+### A Generative AI (Gen AI) Workshop is a hands-on learning experience designed to introduce participants to the concepts, tools, and real-world applications of artificial intelligence systems that can create content — including text, images, code, audio, and more.
