@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Structured Generator</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+}
+
+.glass-card {
+    backdrop-filter: blur(20px);
+    background: rgba(255,255,255,0.1);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    border: 1px solid rgba(255,255,255,0.2);
+    color: white;
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+input {
+    flex: 1;
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+button {
+    padding: 14px 24px;
+    border-radius: 10px;
+    border: none;
+    background: white;
+    color: #333;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.section {
+    margin-top: 20px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.fade-up {
+    animation: slideUp 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media(max-width: 600px){
+    form {
+        flex-direction: column;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="glass-card">
+
+        <h1>⚡ AI Structured Answer Generator</h1>
+
+        <form method="POST">
+            <input 
+                type="text" 
+                name="query" 
+                placeholder="Enter your topic..." 
+                required>
+            <button type="submit">Generate</button>
+        </form>
+
+        {% if result %}
+        <div class="fade-up">
+
+            <div class="section">
+                <h2>{{ result.title }}</h2>
+                <p>{{ result.summary }}</p>
+            </div>
+
+            <div class="section">
+                <ul>
+                    {% for point in result.key_points %}
+                        <li>{{ point }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="section">
+                <ul>
+                    {% for step in result.action_steps %}
+                        <li>{{ step }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+        </div>
+        {% endif %}
+
+    </div>
+</div>
+
+</body>
+</html>
