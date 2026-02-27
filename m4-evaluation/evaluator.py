@@ -1,7 +1,7 @@
 from evaluation_metrics import manual_score
 
 def compare_outputs():
-    print("\n--- Evaluate Prompt V1 ---")
+    print("\n--- Evaluate Proompt V1 ---")
     score1 = manual_score()
 
     print("\n--- Evaluate Prompt V2 ---")
