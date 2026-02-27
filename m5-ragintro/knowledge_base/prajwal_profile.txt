@@ -1,0 +1,50 @@
+### Question: Who is Prajwal Shetty?
+### Answer: Prajwal Shetty is a 2nd year Computer Science Engineering student at AJIET.
+
+### Question: What is Pajju?
+### Answer: Pajju is the nickname of Prajwal Shetty.
+
+### Question: What does Prajwal study?
+### Answer: Prajwal studies Computer Science Engineering.
+
+### Question: Where does Prajwal study?
+### Answer: Prajwal studies at AJIET.
+
+### Question: What skills does Prajwal have?
+### Answer: Prajwal has skills in web development, graphic design, video editing, WordPress development, Shopify development, and AI/ML.
+
+### Question: Is Prajwal a freelancer?
+### Answer: Yes, Prajwal works as a freelance web developer, graphic designer, and video editor.
+
+### Question: What technologies does Prajwal use?
+### Answer: Prajwal works with WordPress, Shopify, MERN stack, Laravel, Bootstrap, and Python.
+
+### Question: What AI projects is Prajwal working on?
+### Answer: Prajwal is building RAG systems, AI-based tools, and a Nifty auto-trading bot.
+
+### Question: What startup ideas is Prajwal building?
+### Answer: Prajwal is building a Gen Z perfume brand called Novaro and exploring SaaS and AI-based startup ideas.
+
+### Question: What is Novaro?
+### Answer: Novaro is a Gen Z-focused perfume and mist brand started by Prajwal Shetty.
+
+### Question: What trading project is Prajwal building?
+### Answer: Prajwal is building a Nifty futures auto-trading bot using Python and Zerodha KiteConnect API.
+
+### Question: What type of SaaS projects is Prajwal interested in?
+### Answer: Prajwal is interested in Micro-SaaS ideas like ClientDeck, which is a smart CRM and payment tracker for freelancers.
+
+### Question: What type of businesses is Prajwal interested in?
+### Answer: Prajwal is interested in AI startups, SaaS products, eCommerce businesses, and physical product brands.
+
+### Question: What is Prajwal's goal?
+### Answer: Prajwal aims to build scalable tech startups and successful brands while improving his AI and development skills.
+
+### Question: Is Prajwal interested in AI?
+### Answer: Yes, Prajwal is highly interested in Artificial Intelligence and Machine Learning.
+
+### Question: What eCommerce project did Prajwal build?
+### Answer: Prajwal built an online sneaker store called Zuzo using the MERN stack.
+
+### Question: What open source project has Prajwal contributed to?
+### Answer: Prajwal contributed to an open-source project called beatsync for synchronized music playback across multiple phones.

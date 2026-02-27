@@ -1,0 +1,152 @@
+### Question: What is Artificial Intelligence?
+### Answer: Artificial Intelligence is the simulation of human intelligence processes by machines, especially computer systems.
+
+### Question: What is Machine Learning?
+### Answer: Machine Learning is a subset of Artificial Intelligence that allows systems to learn from data and improve performance without being explicitly programmed.
+
+### Question: What is Deep Learning?
+### Answer: Deep Learning is a subset of Machine Learning that uses neural networks with many layers to analyze complex patterns in data.
+
+### Question: What is a database?
+### Answer: A database is an organized collection of structured information or data stored electronically.
+
+### Question: What is DBMS?
+### Answer: A Database Management System is software used to create, manage, and manipulate databases.
+
+### Question: What is normalization?
+### Answer: Normalization is the process of organizing data in a database to reduce redundancy and improve integrity.
+
+### Question: What is ACID in DBMS?
+### Answer: ACID stands for Atomicity, Consistency, Isolation, and Durability, which ensure reliable database transactions.
+
+### Question: What is a primary key?
+### Answer: A primary key is a unique identifier for each record in a database table.
+
+### Question: What is a foreign key?
+### Answer: A foreign key is a field that links one table to another table in a relational database.
+
+### Question: What is cloud computing?
+### Answer: Cloud computing is the delivery of computing services such as storage and servers over the internet.
+
+### Question: What is SaaS?
+### Answer: Software as a Service is a cloud-based software delivery model where users access applications through the internet.
+
+### Question: What is a startup?
+### Answer: A startup is a company designed to grow quickly by solving a specific problem with an innovative solution.
+
+### Question: What is MVP?
+### Answer: MVP stands for Minimum Viable Product, which is the simplest version of a product built to test an idea.
+
+### Question: What is product market fit?
+### Answer: Product market fit occurs when a product satisfies strong customer demand.
+
+### Question: What is Customer Acquisition Cost?
+### Answer: Customer Acquisition Cost is the total cost spent to acquire a new customer.
+
+### Question: What is Lifetime Value?
+### Answer: Lifetime Value is the total revenue expected from a customer over their relationship with a business.
+
+### Question: What is an API?
+### Answer: An Application Programming Interface is a set of rules that allows different software applications to communicate with each other.
+
+### Question: What is REST API?
+### Answer: REST API is a web service that follows REST architectural principles using HTTP methods.
+
+### Question: What is Git?
+### Answer: Git is a distributed version control system used to track changes in source code.
+
+### Question: What is GitHub?
+### Answer: GitHub is a platform that hosts Git repositories and enables collaboration.
+
+### Question: What is a neural network?
+### Answer: A neural network is a computational model inspired by the human brain used in machine learning.
+
+### Question: What is an embedding?
+### Answer: An embedding is a numerical representation of text used for similarity comparison in AI systems.
+
+### Question: What is RAG?
+### Answer: Retrieval Augmented Generation is a method that retrieves relevant documents before generating answers.
+
+### Question: What is a vector database?
+### Answer: A vector database stores embeddings and enables similarity search.
+
+### Question: What is cybersecurity?
+### Answer: Cybersecurity is the practice of protecting systems and networks from digital attacks.
+
+### Question: What is blockchain?
+### Answer: Blockchain is a distributed ledger technology that records transactions securely across multiple systems.
+
+### Question: What is cryptocurrency?
+### Answer: Cryptocurrency is a digital currency secured by cryptography.
+
+### Question: What is the Internet of Things?
+### Answer: The Internet of Things refers to interconnected devices that communicate and exchange data.
+
+### Question: What is full stack development?
+### Answer: Full stack development involves working on both frontend and backend parts of an application.
+
+### Question: What is the MERN stack?
+### Answer: MERN stack consists of MongoDB, Express.js, React.js, and Node.js.
+
+### Question: What is frontend development?
+### Answer: Frontend development focuses on building the user interface of websites and applications.
+
+### Question: What is backend development?
+### Answer: Backend development involves server-side logic, databases, and APIs.
+
+### Question: What is Python?
+### Answer: Python is a high-level programming language known for its simplicity and versatility.
+
+### Question: What is JavaScript?
+### Answer: JavaScript is a programming language used to create interactive web pages.
+
+### Question: What is data science?
+### Answer: Data science is the field of extracting insights from structured and unstructured data.
+
+### Question: What is big data?
+### Answer: Big data refers to extremely large datasets that require advanced processing techniques.
+
+### Question: What is an algorithm?
+### Answer: An algorithm is a step-by-step procedure to solve a problem.
+
+### Question: What is object oriented programming?
+### Answer: Object oriented programming is a programming paradigm based on objects and classes.
+
+### Question: What is a class in programming?
+### Answer: A class is a blueprint for creating objects in object oriented programming.
+
+### Question: What is an operating system?
+### Answer: An operating system is software that manages hardware and software resources of a computer.
+
+### Question: What is Linux?
+### Answer: Linux is an open source operating system widely used in servers and development environments.
+
+### Question: What is artificial neural network?
+### Answer: An artificial neural network is a machine learning model inspired by biological neural networks.
+
+### Question: What is overfitting?
+### Answer: Overfitting occurs when a model learns training data too well and performs poorly on new data.
+
+### Question: What is underfitting?
+### Answer: Underfitting occurs when a model is too simple to capture patterns in data.
+
+### Question: What is prompt engineering?
+### Answer: Prompt engineering is the practice of designing inputs to get better responses from AI models.
+
+### Question: What is freelancing?
+### Answer: Freelancing is working independently by providing services to clients without long-term employment.
+
+### Question: What is eCommerce?
+### Answer: eCommerce is the buying and selling of goods and services over the internet.
+
+### Question: What is digital marketing?
+### Answer: Digital marketing involves promoting products using online platforms.
+
+### Question: What is SEO?
+### Answer: Search Engine Optimization is the process of improving website visibility in search engines.
+
+### Question: What is branding?
+### Answer: Branding is the process of creating a unique identity for a business.
+
+### Question: What is entrepreneurship?
+### Answer: Entrepreneurship is the act of starting and running a business.

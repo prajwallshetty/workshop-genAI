@@ -1,0 +1,5 @@
+Machine Learning (ML) focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.
+
+Supervised Learning: The model is trained on labeled data.
+Unsupervised Learning: The model finds patterns in unlabeled data.
+Reinforcement Learning: The model learns through trial and error using rewards.

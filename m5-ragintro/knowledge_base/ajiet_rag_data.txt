@@ -1,0 +1,41 @@
+### Question: What is AJIET?
+### Answer: AJ Institute of Engineering and Technology is an engineering college located in Mangalore, Karnataka.
+
+### Question: Where is AJ Institute of Engineering and Technology located?
+### Answer: AJIET is located in Mangalore, Karnataka, India.
+
+### Question: What courses are offered at AJIET?
+### Answer: AJIET offers undergraduate engineering programs in various branches including Computer Science Engineering.
+
+### Question: What is Aakar?
+### Answer: Aakar is the annual techno-cultural fest of AJ Institute of Engineering and Technology.
+
+### Question: What happens in Aakar?
+### Answer: Aakar includes technical competitions, cultural programs, sports events, workshops, and student performances.
+
+### Question: What is United AJ?
+### Answer: United AJ is a student community initiative at AJIET that organizes sports events and student activities.
+
+### Question: What type of events are conducted by United AJ?
+### Answer: United AJ conducts sports tournaments, auctions, and campus engagement activities.
+
+### Question: What is the Computer Science department at AJIET?
+### Answer: The Computer Science department at AJIET offers engineering education focused on programming, AI, data structures, and software development.
+
+### Question: Does AJIET conduct technical workshops?
+### Answer: Yes, AJIET regularly conducts technical workshops and seminars for students.
+
+### Question: Does AJIET conduct sports events?
+### Answer: Yes, AJIET conducts inter-department and inter-college sports competitions.
+
+### Question: What is the goal of Aakar?
+### Answer: The goal of Aakar is to provide a platform for students to showcase their technical and cultural talents.
+
+### Question: Is AJIET an engineering college?
+### Answer: Yes, AJ Institute of Engineering and Technology is an engineering college.
+
+### Question: In which state is AJIET located?
+### Answer: AJIET is located in the state of Karnataka.
+
+### Question: What kind of student activities happen at AJIET?
+### Answer: AJIET students participate in technical fests, cultural events, sports tournaments, workshops, and club activities.
